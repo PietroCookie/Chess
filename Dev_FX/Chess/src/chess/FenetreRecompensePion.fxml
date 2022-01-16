@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.RecompensePionController">
+   <children>
+      <AnchorPane prefHeight="263.0" prefWidth="619.0">
+         <children>
+            <Label alignment="CENTER" layoutX="128.0" layoutY="5.0" prefHeight="50.0" prefWidth="364.0" text="Choisissez la recompense du pion !">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="Reine" fitHeight="150.0" fitWidth="114.0" layoutX="33.0" layoutY="76.0" onMouseClicked="#recompenseReine" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Tour" fitHeight="150.0" fitWidth="114.0" layoutX="147.0" layoutY="76.0" onMouseClicked="#recompenseTour" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Fou" fitHeight="150.0" fitWidth="114.0" layoutX="322.0" layoutY="76.0" onMouseClicked="#recompenseFou" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Cavalier" fitHeight="150.0" fitWidth="114.0" layoutX="452.0" layoutY="76.0" onMouseClicked="#recompenseCavalier" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
